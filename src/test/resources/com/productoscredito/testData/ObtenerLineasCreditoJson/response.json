@@ -1,0 +1,6 @@
+{
+    "descripcionError": "Error obteniendo cedula",
+    "mensajeErrorUsuario": "Error obteniendo cedula",
+    "errorToken": "token invalido, no tienes permisos para solicitar este recurso",
+    "resultado": null
+}

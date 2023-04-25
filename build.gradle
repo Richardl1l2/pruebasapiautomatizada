@@ -1,0 +1,36 @@
+plugins {
+    id 'java'
+    id "net.serenity-bdd.serenity-gradle-plugin" version "3.6.7"
+}
+
+version '1.0-SNAPSHOT'
+
+defaultTasks 'clean', 'test'
+
+repositories {
+    mavenCentral()
+}
+
+ext {
+    serenityCoreVersion = '3.6.12'
+    junitVersion = '5.9.2'
+}
+
+dependencies {
+    implementation "net.serenity-bdd:serenity-cucumber:${serenityCoreVersion}"
+    implementation "org.junit.vintage:junit-vintage-engine:${junitVersion}"
+    implementation 'com.googlecode.json-simple:json-simple:1.1.1'
+    implementation 'net.serenity-bdd:serenity-single-page-report:3.6.12'
+    testImplementation 'junit:junit:4.13.1'
+    testImplementation 'junit:junit:4.13.1'
+    testImplementation 'junit:junit:4.13.1'
+    testImplementation 'junit:junit:4.13.1'
+    testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:${junitVersion}"
+    implementation "net.serenity-bdd:serenity-screenplay:${serenityCoreVersion}"
+    implementation 'net.serenity-bdd:serenity-rest-assured:3.6.12'
+
+}
+
+test {
+    useJUnitPlatform()
+}
