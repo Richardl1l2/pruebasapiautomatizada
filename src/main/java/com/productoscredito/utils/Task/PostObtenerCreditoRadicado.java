@@ -5,8 +5,6 @@ import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import org.json.simple.JSONObject;
-import org.junit.Assert;
-
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;

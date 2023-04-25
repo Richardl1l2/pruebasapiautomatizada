@@ -46,21 +46,11 @@ public class Constantes  {
         return k_transa;
     }
 
-    static final String var_solicitado = "150000";
-    public static String getv_solicitado(String var_solicitado) {
-        return var_solicitado;
-    }
-    static final String v_cupo = "283688";
-    public static String getV_cupo(String v_cupo) {
-        return v_cupo;
-    }
 
     static final String k_numdoc = "10050316";
     public static String getk_numdoc() {
         return k_numdoc;
     }
-
-
 
     }
 
