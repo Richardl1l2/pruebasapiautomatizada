@@ -1,14 +1,12 @@
 package com.productoscredito.utils.Task;
 
 import io.restassured.RestAssured;
-import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import org.json.simple.JSONObject;
 import org.junit.Assert;
 import java.util.List;
 import java.util.Map;
-import java.io.FileWriter;
 import java.io.IOException;
 
 
@@ -19,13 +17,6 @@ public class PostObtenerLineasCredito extends  Constantes {
         requestParams.put("cedula", getCedula());
         requestParams.put("basicEncodeClient", getBasicEncodeClient());
         RequestSpecification requestSpecification = RestAssured.given().relaxedHTTPSValidation().baseUri(LinkAPI).contentType("application/json").body(requestParams.toJSONString());
-        Response response = requestSpecification.post("obtenerLineasCredito");
-        JsonPath jsonResponse = response.jsonPath();
-        String jsonStr = jsonResponse.prettify();
-
-        try (FileWriter writer = new FileWriter("src/test/resources/com/productoscredito/testData/ObtenerLineasCreditoJson/response.json") ) {
-            writer.write(jsonStr);
-        }
 
             return requestSpecification;
         }

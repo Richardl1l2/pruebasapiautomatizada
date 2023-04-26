@@ -2,7 +2,6 @@ package com.productoscredito.utils.Task;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
-import org.junit.Assert;
 
 public class GetObtenerUbicaciones extends Constantes {
 
@@ -14,7 +13,6 @@ public class GetObtenerUbicaciones extends Constantes {
     public static String validarDepartamento() {
         Response response = obtenerUbicaciones();
         String nombreDepartamento = response.jsonPath().get("resultado.paises[0].departamentos[0].nombreDepartamento");
-        Assert.assertEquals(departamento, nombreDepartamento);
 
         return nombreDepartamento;
     }

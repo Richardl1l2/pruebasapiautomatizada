@@ -28,9 +28,18 @@ dependencies {
     testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:${junitVersion}"
     implementation "net.serenity-bdd:serenity-screenplay:${serenityCoreVersion}"
     implementation 'net.serenity-bdd:serenity-rest-assured:3.6.12'
-
 }
 
 test {
+
+    maxParallelForks 3
+    systemProperty "cucumber.filter.tags", System.getProperty("cucumber.filter.tags")
     useJUnitPlatform()
+    testLogging.showStandardStreams = true
+    systemProperties System.getProperties()
+}
+task CrearTokenStepRunner(type: Test) {
+    testClassesDirs = fileTree(dir: 'java/com/productoscredito/runners/CrearTokenStepRunner.java')
+    classpath = files("$buildDir/dependencies.jar")
+    systemProperties['cucumber.options'] = '--tags "@crear_token"'
 }

@@ -8,7 +8,8 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
         glue = "com.productoscredito.stepDefinitions",
-        features = "src/test/resources/com/productoscredito/features/ObtenerCreditosRadicados.feature"
+        features = "src/test/resources/com/productoscredito/features/ObtenerCreditosRadicados.feature",
+        tags = "@obtener_credito_radicado"
 )
 public class ObtenerCreditosRadicadosStepRunner {
 }

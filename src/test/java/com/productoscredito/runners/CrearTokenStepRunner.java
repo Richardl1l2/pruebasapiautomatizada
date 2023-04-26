@@ -8,7 +8,8 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
         glue = "com.productoscredito.stepDefinitions",
-        features = "src/test/resources/com/productoscredito/features/CrearToken.feature"
+        features = "src/test/resources/com/productoscredito/features/CrearToken.feature",
+        tags = "@creartoken"
 )
 public class CrearTokenStepRunner {
 }

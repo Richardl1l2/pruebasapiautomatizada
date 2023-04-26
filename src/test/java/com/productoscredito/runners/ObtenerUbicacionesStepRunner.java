@@ -8,7 +8,8 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
         glue = "com.productoscredito.stepDefinitions",
-        features = "src/test/resources/com/productoscredito/features/ObtenerUbicaciones.feature"
+        features = "src/test/resources/com/productoscredito/features/ObtenerUbicaciones.feature",
+        tags = "@obtener_ubicaciones"
 )
 public class ObtenerUbicacionesStepRunner {
 }

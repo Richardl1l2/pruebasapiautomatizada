@@ -1,11 +1,9 @@
 package com.productoscredito.utils.Task;
 
 import io.restassured.RestAssured;
-import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import org.json.simple.JSONObject;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -31,11 +29,6 @@ public class PostObtenerMovimientos extends  Constantes {
         datosTransaccion2.add(k_transa);
         datosTransaccion2.add(k_numdoc);
 
-        JsonPath jsonResponse = response.jsonPath();
-        String jsonStr = jsonResponse.prettify();
-       try (FileWriter writer = new FileWriter("src/test/resources/com/productoscredito/testData/ObtenerMovimientosJson/response.json") ) {
-            writer.write(jsonStr);
-        }
                 return requestSpecification;
     }
 
