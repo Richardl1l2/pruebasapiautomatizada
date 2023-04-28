@@ -38,8 +38,5 @@ test {
     testLogging.showStandardStreams = true
     systemProperties System.getProperties()
 }
-task CrearTokenStepRunner(type: Test) {
-    testClassesDirs = fileTree(dir: 'java/com/productoscredito/runners/CrearTokenStepRunner.java')
-    classpath = files("$buildDir/dependencies.jar")
-    systemProperties['cucumber.options'] = '--tags "@crear_token"'
-}
+
+
