@@ -40,3 +40,4 @@ test {
 }
 
 
+gradle.startParameter.continueOnFailure = true
