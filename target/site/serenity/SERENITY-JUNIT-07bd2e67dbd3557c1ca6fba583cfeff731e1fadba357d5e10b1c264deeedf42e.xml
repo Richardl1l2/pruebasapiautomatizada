@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="Obtener líneas de crédito de la API" skipped="0" tests="1" time="2.61" timestamp="2023-05-03 12:29:10"><testcase name="Obtener líneas de crédito de la API correctamente"><failure message="expected:&lt;...descripcionError&quot;: &quot;[Error obteniendo cedula&quot;,&#10;    &quot;mensajeErrorUsuario&quot;: &quot;Error obteniendo cedula&quot;,&#10;    &quot;errorToken&quot;: &quot;token invalido, no tienes permisos para solicitar este recurso&quot;,&#10;    &quot;resultado&quot;: null]&#10;}&gt; but was:&lt;...descripcionError&quot;: &quot;[&quot;,&#10;    &quot;mensajeErrorUsuario&quot;: &quot;&quot;,&#10;    &quot;errorToken&quot;: &quot;&quot;,&#10;    &quot;resultado&quot;: [&#10;        {&#10;            &quot;idRadicado&quot;: &quot;1630533835637&quot;,&#10;            &quot;idLineaCredito&quot;: &quot;001&quot;,&#10;            &quot;formaEntrega&quot;: &quot;N&quot;,&#10;            &quot;fechaSolicitud&quot;: &quot;2021-09-01 00:00:00.0&quot;,&#10;            &quot;valorSolicitado&quot;: 3000000&#10;        },&#10;        {&#10;            &quot;idRadicado&quot;: &quot;1630332253550&quot;,&#10;            &quot;idLineaCredito&quot;: &quot;001&quot;,&#10;            &quot;formaEntrega&quot;: &quot;N&quot;,&#10;            &quot;fechaSolicitud&quot;: &quot;2021-08-30 00:00:00.0&quot;,&#10;            &quot;valorSolicitado&quot;: 3000000&#10;        },&#10;        {&#10;            &quot;idRadicado&quot;: &quot;1586994262076&quot;,&#10;            &quot;idLineaCredito&quot;: &quot;001&quot;,&#10;            &quot;formaEntrega&quot;: &quot;D&quot;,&#10;            &quot;fechaSolicitud&quot;: &quot;2020-04-15 00:00:00.0&quot;,&#10;            &quot;valorSolicitado&quot;: 6000000&#10;        },&#10;        {&#10;            &quot;idRadicado&quot;: &quot;1586404964403&quot;,&#10;            &quot;idLineaCredito&quot;: &quot;004&quot;,&#10;            &quot;formaEntrega&quot;: &quot;D&quot;,&#10;            &quot;fechaSolicitud&quot;: &quot;2020-04-08 00:00:00.0&quot;,&#10;            &quot;valorSolicitado&quot;: 500000&#10;        },&#10;        {&#10;            &quot;idRadicado&quot;: &quot;1586398726732&quot;,&#10;            &quot;idLineaCredito&quot;: &quot;001&quot;,&#10;            &quot;formaEntrega&quot;: &quot;D&quot;,&#10;            &quot;fechaSolicitud&quot;: &quot;2020-04-08 00:00:00.0&quot;,&#10;            &quot;valorSolicitado&quot;: 80000&#10;        },&#10;        {&#10;            &quot;idRadicado&quot;: &quot;1586397233437&quot;,&#10;            &quot;idLineaCredito&quot;: &quot;004&quot;,&#10;            &quot;formaEntrega&quot;: &quot;D&quot;,&#10;            &quot;fechaSolicitud&quot;: &quot;2020-04-08 00:00:00.0&quot;,&#10;            &quot;valorSolicitado&quot;: 500000&#10;        },&#10;        {&#10;            &quot;idRadicado&quot;: &quot;1&quot;,&#10;            &quot;idLineaCredito&quot;: &quot;001&quot;,&#10;            &quot;formaEntrega&quot;: &quot;N&quot;,&#10;            &quot;fechaSolicitud&quot;: &quot;2020-03-31 00:00:00.0&quot;,&#10;            &quot;valorSolicitado&quot;: 40000000&#10;        }&#10;    ]]&#10;}&gt;" type="java.lang.AssertionError">expected:&lt;...descripcionError": "[Error obteniendo cedula",
+    "mensajeErrorUsuario": "Error obteniendo cedula",
+    "errorToken": "token invalido, no tienes permisos para solicitar este recurso",
+    "resultado": null]
+}&gt; but was:&lt;...descripcionError": "[",
+    "mensajeErrorUsuario": "",
+    "errorToken": "",
+    "resultado": [
+        {
+            "idRadicado": "1630533835637",
+            "idLineaCredito": "001",
+            "formaEntrega": "N",
+            "fechaSolicitud": "2021-09-01 00:00:00.0",
+            "valorSolicitado": 3000000
+        },
+        {
+            "idRadicado": "1630332253550",
+            "idLineaCredito": "001",
+            "formaEntrega": "N",
+            "fechaSolicitud": "2021-08-30 00:00:00.0",
+            "valorSolicitado": 3000000
+        },
+        {
+            "idRadicado": "1586994262076",
+            "idLineaCredito": "001",
+            "formaEntrega": "D",
+            "fechaSolicitud": "2020-04-15 00:00:00.0",
+            "valorSolicitado": 6000000
+        },
+        {
+            "idRadicado": "1586404964403",
+            "idLineaCredito": "004",
+            "formaEntrega": "D",
+            "fechaSolicitud": "2020-04-08 00:00:00.0",
+            "valorSolicitado": 500000
+        },
+        {
+            "idRadicado": "1586398726732",
+            "idLineaCredito": "001",
+            "formaEntrega": "D",
+            "fechaSolicitud": "2020-04-08 00:00:00.0",
+            "valorSolicitado": 80000
+        },
+        {
+            "idRadicado": "1586397233437",
+            "idLineaCredito": "004",
+            "formaEntrega": "D",
+            "fechaSolicitud": "2020-04-08 00:00:00.0",
+            "valorSolicitado": 500000
+        },
+        {
+            "idRadicado": "1",
+            "idLineaCredito": "001",
+            "formaEntrega": "N",
+            "fechaSolicitud": "2020-03-31 00:00:00.0",
+            "valorSolicitado": 40000000
+        }
+    ]]
+}&gt;</failure><system-err>expected:&lt;...descripcionError": "[Error obteniendo cedula",
+    "mensajeErrorUsuario": "Error obteniendo cedula",
+    "errorToken": "token invalido, no tienes permisos para solicitar este recurso",
+    "resultado": null]
+}&gt; but was:&lt;...descripcionError": "[",
+    "mensajeErrorUsuario": "",
+    "errorToken": "",
+    "resultado": [
+        {
+            "idRadicado": "1630533835637",
+            "idLineaCredito": "001",
+            "formaEntrega": "N",
+            "fechaSolicitud": "2021-09-01 00:00:00.0",
+            "valorSolicitado": 3000000
+        },
+        {
+            "idRadicado": "1630332253550",
+            "idLineaCredito": "001",
+            "formaEntrega": "N",
+            "fechaSolicitud": "2021-08-30 00:00:00.0",
+            "valorSolicitado": 3000000
+        },
+        {
+            "idRadicado": "1586994262076",
+            "idLineaCredito": "001",
+            "formaEntrega": "D",
+            "fechaSolicitud": "2020-04-15 00:00:00.0",
+            "valorSolicitado": 6000000
+        },
+        {
+            "idRadicado": "1586404964403",
+            "idLineaCredito": "004",
+            "formaEntrega": "D",
+            "fechaSolicitud": "2020-04-08 00:00:00.0",
+            "valorSolicitado": 500000
+        },
+        {
+            "idRadicado": "1586398726732",
+            "idLineaCredito": "001",
+            "formaEntrega": "D",
+            "fechaSolicitud": "2020-04-08 00:00:00.0",
+            "valorSolicitado": 80000
+        },
+        {
+            "idRadicado": "1586397233437",
+            "idLineaCredito": "004",
+            "formaEntrega": "D",
+            "fechaSolicitud": "2020-04-08 00:00:00.0",
+            "valorSolicitado": 500000
+        },
+        {
+            "idRadicado": "1",
+            "idLineaCredito": "001",
+            "formaEntrega": "N",
+            "fechaSolicitud": "2020-03-31 00:00:00.0",
+            "valorSolicitado": 40000000
+        }
+    ]]
+}&gt;
+com.productoscredito.utils.Task.PostObtenerCreditoRadicado.respuestaesperada(PostObtenerCreditoRadicado.java:51)
+com.productoscredito.stepDefinitions.ObtenerCreditosRadicadosStep.debería_recibir_una_respuesta_con_las_líneas_de_crédito_de_la_api_correspondientes(ObtenerCreditosRadicadosStep.java:25)
+✽.debería recibir una respuesta con las líneas de crédito de la API correspondientes(file:///home/usuario/Documentos/fondopresent/apipruebafondopresente/solidapp-ms-productoscredito-api-tests/src/test/resources/com/productoscredito/features/ObtenerCreditosRadicados.feature:8)
+</system-err></testcase></testsuite>

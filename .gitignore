@@ -4,7 +4,6 @@ history
 **/build/
 !src/**/build/
 src/main/java/org
-target
 src/test/resources/com/demoqa/data/data_registro.csv
 src/main/java/com/demoqa/questions
 src/main/java/com/demoqa/utils/BuilderCsvWebTable.java
