@@ -11,3 +11,5 @@ A través de los siguientes comandos personalizados se pueden ejecutar las prueb
 "gradle test --tests "com.productoscredito.runners.CrearTokenStepRunner" aggregate"
 ```
 
+
+`./gradlew clean test -Dcucumber.filter.tags="@creartoken”`

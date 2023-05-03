@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         glue = "com.productoscredito.stepDefinitions",
         features = "src/test/resources/com/productoscredito/features/ObtenerLineasCredito.feature",
-        tags = "@obtener_linas_credito"
+        tags = "@obtener_lineas_credito"
 )
 public class ObtenerLineasCreditoStepRunner {
 }
