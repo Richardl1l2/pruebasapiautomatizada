@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="1" failures="0" name="Obtener creditos radicados" skipped="0" tests="1" time="1.36" timestamp="2023-05-03 02:06:16"><testcase name="Obtener creditos radicados validos"><error message="Cannot invoke &quot;java.util.List.iterator()&quot; because &quot;lineasCredito&quot; is null" type="java.lang.NullPointerException">Cannot invoke "java.util.List.iterator()" because "lineasCredito" is null</error><system-err>Cannot invoke "java.util.List.iterator()" because "lineasCredito" is null
-com.productoscredito.utils.Task.PostObtenerLineasCredito.respuestaesperada(PostObtenerLineasCredito.java:29)
-com.productoscredito.stepDefinitions.ObtenerLineasCreditoStep.la_aplicacion_devuelve_una_lista_de_todos_los_creditos_radicados(ObtenerLineasCreditoStep.java:29)
-✽.la aplicacion devuelve una lista de todos los creditos radicados(file:///home/usuario/Documentos/fondopresent/apipruebafondopresente/solidapp-ms-productoscredito-api-tests/src/test/resources/com/productoscredito/features/ObtenerLineasCredito.feature:10)
-</system-err></testcase></testsuite>

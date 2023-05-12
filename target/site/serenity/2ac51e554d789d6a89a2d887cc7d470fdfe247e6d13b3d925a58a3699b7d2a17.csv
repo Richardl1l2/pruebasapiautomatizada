@@ -1,2 +1,2 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Obtener movimientos de la API","Obtener movimientos de la API correctamente","SUCCESS","2023-05-03T14:06:10.898181657-05:00[America/Bogota]","0.0","4.83"
+"Buscar empleados por id en la api y realizar pruebas para validar campo","Buscar empleados por id","SUCCESS","2023-05-12T00:13:49.332377386-05:00[America/Bogota]","0.0","2.49"

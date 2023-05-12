@@ -3,6 +3,8 @@ plugins {
     id 'eclipse'
     id 'idea'
     id "net.serenity-bdd.serenity-gradle-plugin" version "3.6.7"
+
+
 }
 
 version '1.0-SNAPSHOT'
@@ -39,6 +41,8 @@ dependencies {
     implementation "net.serenity-bdd:serenity-screenplay:${serenityCoreVersion}"
     implementation 'net.serenity-bdd:serenity-rest-assured:3.6.12'
     implementation 'org.apache.logging.log4j:log4j-core:2.17.1'
+    testImplementation group: 'log4j', name: 'log4j', version: '1.2.17'
+
 
 
 }
@@ -51,6 +55,7 @@ test {
     testLogging.showStandardStreams = true
     systemProperties System.getProperties()
 }
+
 
 
 gradle.startParameter.continueOnFailure = true

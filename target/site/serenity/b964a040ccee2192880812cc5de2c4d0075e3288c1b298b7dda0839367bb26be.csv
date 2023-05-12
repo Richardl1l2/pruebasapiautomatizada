@@ -1,2 +1,5 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Obtener líneas de crédito de la API","Obtener líneas de crédito de la API correctamente","FAILURE","2023-05-03T12:29:10.638977514-05:00[America/Bogota]","0.0","2.61"
+"Eliminar empleado por id","Escoger un id de empleado y proceder a eliminarlo","FAILURE","2023-05-12T00:13:52.827227552-05:00[America/Bogota]","0.0","0.6"
+"Crear empleado en api","Crear empleado para verificar respuesta api","ERROR","2023-05-12T00:13:49.098499951-05:00[America/Bogota]","0.0","2.45"
+"Modificar empleado con el id","Escoger un id de empleado y modificar un campo","FAILURE","2023-05-12T00:13:49.212115814-05:00[America/Bogota]","0.0","2.59"
+"Mostrar empleados generados de la api","Mostrar empleados de la api","ERROR","2023-05-12T00:13:53.229963168-05:00[America/Bogota]","0.0","0.79"

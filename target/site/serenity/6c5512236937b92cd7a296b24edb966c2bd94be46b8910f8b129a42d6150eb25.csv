@@ -1,3 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Crear token para acceso","Crear token para dar autorizacion en las diferentes peticiones API","SUCCESS","2023-05-03T12:26:19.095198943-05:00[America/Bogota]","0.0","2.05"
-"Obtener líneas de crédito de la API","Obtener líneas de crédito de la API correctamente","FAILURE","2023-05-03T12:29:10.638977514-05:00[America/Bogota]","0.0","2.61"
+"Buscar empleados por id en la api y realizar pruebas para validar campo","Buscar empleados por id","SUCCESS","2023-05-12T00:13:49.332377386-05:00[America/Bogota]","0.0","2.49"
+"Crear empleado en api","Crear empleado para verificar respuesta api","ERROR","2023-05-12T00:13:49.098499951-05:00[America/Bogota]","0.0","2.45"
+"Modificar empleado con el id","Escoger un id de empleado y modificar un campo","FAILURE","2023-05-12T00:13:49.212115814-05:00[America/Bogota]","0.0","2.59"

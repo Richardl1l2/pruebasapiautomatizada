@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="Modificar empleado con el id" skipped="0" tests="1" time="2.59" timestamp="2023-05-12 12:13:49"><testcase name="Escoger un id de empleado y modificar un campo"><failure message="expected:&lt;404&gt; but was:&lt;200&gt;" type="java.lang.AssertionError">expected:&lt;404&gt; but was:&lt;200&gt;</failure><system-err>expected:&lt;404&gt; but was:&lt;200&gt;
+com.productoscredito.stepDefinitions.ModificarEmpleadoStep.se_verifica_que_la_modificacion_se_haga_efectiva(ModificarEmpleadoStep.java:34)
+✽.Se verifica que la modificacion se haga efectiva(file:///home/usuario/Documentos/choucair/api/api-tests/src/test/resources/com/productoscredito/features/ModificarEmpleado.feature:7)
+</system-err></testcase></testsuite>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="Eliminar empleado por id" skipped="0" tests="1" time="0.6" timestamp="2023-05-12 12:13:52"><testcase name="Escoger un id de empleado y proceder a eliminarlo"><failure message="expected:&lt;200&gt; but was:&lt;429&gt;" type="java.lang.AssertionError">expected:&lt;200&gt; but was:&lt;429&gt;</failure><system-err>expected:&lt;200&gt; but was:&lt;429&gt;
+com.productoscredito.stepDefinitions.BorrarEmpleadoStep.se_verifica_el_usuario_eliminado_de_forma_correcta(BorrarEmpleadoStep.java:29)
+✽.Se verifica el usuario eliminado de forma correcta(file:///home/usuario/Documentos/choucair/api/api-tests/src/test/resources/com/productoscredito/features/BorrarEmpleado.feature:7)
+</system-err></testcase></testsuite>

@@ -1,4 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Crear token para acceso","Crear token para dar autorizacion en las diferentes peticiones API","SUCCESS","2023-05-03T14:06:15.480651963-05:00[America/Bogota]","0.0","0.35"
-"Obtener datos del asociado de la API","Obtener datos del asociado de la API correctamente","SUCCESS","2023-05-03T14:06:22.981970929-05:00[America/Bogota]","0.0","1.33"
-"Obtener ubicaciones","Obtener ubicaciones válidas","SUCCESS","2023-05-03T14:06:10.835143455-05:00[America/Bogota]","0.0","11.66"
